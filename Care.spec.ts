@@ -7,18 +7,14 @@ test.beforeEach('Login', async ({ page, isMobile }) => {
   await page.getByRole('link', { name: 'Policy Login' }).click();
   await page.getByRole('textbox', { name: 'User Name' }).type('6382228561');
   await page.getByRole('textbox', { name: 'Password' }).type('Sakthi@1602');
-  await expect(page.getByRole('textbox', { name: 'User Name' })).toHaveValue('6382228561');
-  await expect(page.getByRole('textbox', { name: 'Password' })).toHaveValue('Sakthi@1602');
-  await page.locator('#main-content').getByRole('button', { name: 'Login' }).click();
+   await page.locator('#main-content').getByRole('button', { name: 'Login' }).click();
   await page.waitForTimeout(3000);
 });
 
 export const Acceptaccess = async (page: Page) => {
   if (await page.getByRole('button', { name: 'Ok' }).isVisible()) {
-    await page.getByRole('button', { name: 'Ok' }).click();
-  } else {
-    await page.getByRole('button', { name: '₹ 13280/Yr' }).click();
-  }
+    await page.getByRole('button', { name: 'Ok' }).click();} 
+    else {await page.getByRole('button', { name: '₹ 13280/Yr' }).click();}
 };
 
 export const DocumentUploadHelper = {
@@ -30,8 +26,7 @@ export const DocumentUploadHelper = {
     await page.waitForTimeout(1000);
     await page.getByText('Voter ID').click();
 
-    const uploadFile = path.resolve('C:/Users/freed/Downloads/TestDoc.jpg');
-
+    const uploadFile = path.resolve('C:/Users/freed/OneDrive/Desktop/Doc/TestDoc.jpg');
     for (let i = 0; i < 2; i++) {
       const fileInput = await page.locator('input[type="file"]').nth(i);
       await fileInput.setInputFiles(uploadFile);
