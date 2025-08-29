@@ -1,0 +1,462 @@
+# Page snapshot
+
+```yaml
+- link "vizza-logo":
+  - /url: /home
+  - img "vizza-logo"
+- link "Home":
+  - /url: /home
+- link "About us":
+  - /url: /about
+- link "Event":
+  - /url: /event
+- link "Contact us":
+  - /url: /contact
+- link "Careers":
+  - /url: https://career.vizzainsurance.com/
+- link "Online Insurance":
+  - /url: /home
+- link "Motor Insurance":
+  - /url: /motor
+- link "Dental Insurance":
+  - /url: https://www.toothlens.com/starhealth
+- link "Health Insurance":
+  - /url: /health-insurance
+- link "Personal Accident":
+  - /url: /personal-accident
+- link "Travel Insurance":
+  - /url: /travel-insurance
+- link "Star Travel Insurance":
+  - /url: /star-travel-insurance
+- link "Life Insurance":
+  - /url: /life-insurance-new
+- link "Life-POS":
+  - /url: /pos
+- link "Bajaj Goal Suraksha":
+  - /url: /life-pos/lp-bajaj-goal-suraksha
+- link "Edelweiss":
+  - /url: /life-pos/lp-edelweiss
+- link "Life Insurance":
+  - /url: /home
+- link "Life Insurance-Term":
+  - /url: /life-insurance-new
+- link "Life Insurance-Endowment":
+  - /url: /life-insurance/life-endowment
+- link "ULIP":
+  - /url: /life-insurance/life-ulip
+- link "General Insurance":
+  - /url: /home
+- link "Commercial Insurance":
+  - /url: /home
+- link "Jewelers Block Policy":
+  - /url: /commercial-insurance/jewelers-block-policy
+- link "Bankers Indemnity Policy":
+  - /url: /commercial-insurance/bankers-indemnity-policy
+- link "Shopkeepers Policy":
+  - /url: /commercial-insurance/shopkeepers-policy
+- link "Marine Cargo Policy":
+  - /url: /commercial-insurance/marine-cargo-policy
+- link "Contractor Machinery Policy":
+  - /url: /commercial-insurance/contractor-machinery-policy
+- link "Marine Hull Policy":
+  - /url: /commercial-insurance/marine-hull-policy
+- link "Aviation Insurance":
+  - /url: /commercial-insurance/aviation-insurance
+- link "Money Insurance":
+  - /url: /commercial-insurance/money-insurance
+- link "House Holder Policy":
+  - /url: /commercial-insurance/house-holder-policy
+- link "Industrial Insurance":
+  - /url: /home
+- link "Fire Policy":
+  - /url: /industrial-insurance/ind-fire-policy
+- link "Burglary Policy":
+  - /url: /industrial-insurance/ind-burglary-policy
+- link "Machinery Breakdown Policy":
+  - /url: /industrial-insurance/ind-machinery-breakdown-policy
+- link "Electronics Equipment Policy":
+  - /url: /industrial-insurance/ind-electronics-equipment-policy
+- link "Consequential Loss Policy":
+  - /url: /industrial-insurance/ind-consequential-loss-policy
+- link "Contractors All Risk Policy":
+  - /url: /industrial-insurance/ind-contractors-all-risk-policy
+- link "Marine cum Erection/ Storage Policy":
+  - /url: /industrial-insurance/ind-marine-cum-erection
+- link "Advance Loss of Profit":
+  - /url: /industrial-insurance/ind-advance-lossof-profit
+- link "Contractor Plant and Machinery Policy":
+  - /url: /industrial-insurance/ind-contractor-plant-and-machinery-policy
+- link "Mega Package Policy":
+  - /url: /industrial-insurance/ind-mega-package-policy
+- link "Erection All Risk Policy":
+  - /url: /industrial-insurance/ind-erection-all-risk-policy
+- link "Liability Insurance":
+  - /url: /home
+- link "Public Liability Policy":
+  - /url: /liability-insurance/lia-public-liability-policy
+- link "Products Liability Policy":
+  - /url: /liability-insurance/lia-products-liability-policy
+- link "Professional Indemnity Policy":
+  - /url: /liability-insurance/lia-professional-indemnity-policy
+- link "Directors and Officers Liability Policy":
+  - /url: /liability-insurance/lia-directors-and-officers-liability-policy
+- link "Lift Insurance":
+  - /url: /liability-insurance/lia-lift-insurance
+- link "Employers Liability Policy":
+  - /url: /liability-insurance/lia-employers-liability
+- link "Workmen Compensation":
+  - /url: /liability-insurance/lia-workmen-compensation
+- link "Carriers Liability Policy":
+  - /url: /liability-insurance/lia-carriers-liability-policy
+- link "Liability Insurance Act Policy":
+  - /url: /liability-insurance/lia-liability-insurance-act-policy
+- link "Golfers Indemnity Policy":
+  - /url: /liability-insurance/lia-golfers-indemnity-policy
+- link "Fidelity Guarantee Insurance Policy":
+  - /url: /liability-insurance/lia-fidelity-guarantee-insurance-policy
+- link "Group Insurance":
+  - /url: /home
+- link "Group Medical Insurance":
+  - /url: /group-insurance/group-medical-insurance
+- link "Group Personal Accident":
+  - /url: /group-insurance/group-personal-accident
+- link "Group Term Life Insurance":
+  - /url: /group-insurance/group-term-life-insurance
+- link "Group Travel Insurance":
+  - /url: /group-insurance/group-travel-insurance
+- link "Renewal":
+  - /url: /home
+- link "Renewal Reminder":
+  - /url: /renewal-reminder
+- link "Renew Existing Policy":
+  - /url: /renew-existing-policy
+- link "Health Insurance Renewal":
+  - /url: /renewal-reminder
+- link "Health Landing":
+  - /url: /health-landing
+- link "Motor Landing":
+  - /url: /motor-landing
+- link "Claim Assistance":
+  - /url: /claim-assistance
+- link "Media Library":
+  - /url: /pos/media-library
+- link "Learning Center":
+  - /url: /pos/pos-training
+- link "Training":
+  - /url: /pos/pos-training
+- link "Mock Test":
+  - /url: /pos/pos-mock-test
+- link "Mock Campus Test":
+  - /url: /pos/pos-mock-campustest/3
+- link "Mock BQP Test":
+  - /url: /pos/pos-mock-campustest/4
+- link "Media Library":
+  - /url: /pos/media-library
+- link "FAQ":
+  - /url: /pos/faq
+- link "Insurance Dictionary":
+  - /url: /pos/insurance-dictionary
+- link "POS":
+  - /url: /pos
+- link "Policy Login":
+  - /url: /policy-login
+- link "Customer Login":
+  - /url: /customer-login
+- link "Blogs":
+  - /url: https://blog.vizzainsurance.com/
+- paragraph: Hi, Test Manager
+- button
+- heading "Let's find you the Best Insurance" [level=1]
+- img "Banner Image"
+- heading "We Ensure, You are Insured!" [level=3]
+- text: Name *
+- textbox "Enter Your Name"
+- text: Mobile No *
+- textbox "Enter Your Mobile No"
+- text: Policy*
+- combobox:
+  - option "Health Insurance" [selected]
+  - option "Dental Insurance"
+  - option "Private Car Insurance"
+  - option "Two Wheeler Insurance"
+  - option "Personal Accident"
+  - option "Travel Insurance"
+  - option "Life Insurance - Term"
+  - option "Life Insurance - Endowment"
+  - option "Group Health Insurance"
+  - option "Group Personal Accident"
+  - option "House Holders Policy"
+  - option "Shopkeepers Policy"
+  - option "Workmen Compensation"
+  - option "Group Term Life"
+  - option "Fire Insurance"
+  - option "Burglary Insurance"
+- paragraph:
+  - text: By continuing to submit, you agree to our terms of
+  - link "Use Service":
+    - /url: /terms-conditions
+  - text: and that you have read the
+  - link "Privacy Policy":
+    - /url: /privacy-policy
+  - text: .
+- checkbox "I hereby authorize the sending of notifications via SMS, messages, promotional, and informational messages."
+- text: I hereby authorize the sending of notifications via SMS, messages, promotional, and informational messages.
+- paragraph:
+  - button "View Prices" [disabled]
+- img
+- text: Health Insurance
+- img
+- text: Dental Insurance
+- img
+- text: Private Car Insurance
+- img
+- text: Two Wheeler Insurance
+- img
+- text: Personal Accident
+- img
+- text: Travel Insurance
+- img
+- text: Life Insurance - Term
+- img
+- text: Life Insurance - Endowment
+- img
+- text: Group Health Insurance
+- img
+- text: Group Personal Accident
+- img
+- text: House Holders Policy
+- img
+- text: More
+- img
+- text: Compare Insurance Comparisons Simplified
+- img
+- text: Buy Best Prices Guaranteed
+- img
+- text: Insured We Ensure, You are Insured! COMPARE
+- heading "Insurance Comparisons Simplified" [level=3]
+- text: Compare policies in real-time and get insurance anytime, anywhere at vizzainsurance.com. Sometimes, things don’t go as planned. Wherever you go, we protect you with simplified comparisons.
+- list:
+  - listitem: Compare the best insurance with key benefits and coverage in real time.
+  - listitem: Filter through policies to find the ones that fit your criteria.
+  - listitem: Select policies based on their keyfeatures.
+- text: BUY
+- heading "Best Prices Guaranteed" [level=3]
+- text: Buy Insurance from various insurers through vizzainsurance.com where we ensure you are insured
+- list:
+  - listitem: Get instant quotes from top insurers.
+  - listitem: Best in class insurance at an affordable price.
+  - listitem: Get policy instantly by using any online payment method
+- text: INSURED
+- heading "We Ensure, You are Insured" [level=3]
+- text: We do all the hard work for you by decoding the terms and conditions and ensuring to make the purchase of an insurance policy as easy as possible thus ensuring your financial freedom.
+- list:
+  - listitem: Comprehensive benefits.
+  - listitem: Customize your insurance plan according to your needs.
+  - listitem: Get activated with new benefits on the go.
+- heading "Here’s why you’ll love vizzainsurance.com" [level=3]
+- img
+- heading "Become a Channel Partner" [level=2]
+- paragraph: Work at your convenience and build a rewarding career with vizzainsurance.com
+- button "Register Now"
+- img
+- heading "Get Reminders Instantly" [level=2]
+- paragraph: We are here for you anytime,anywhere. Get your renewal reminders superquick and easy.
+- button "Remind Me!"
+- img
+- heading "Superior Claim Assistance" [level=2]
+- paragraph: Get hassle-free claim assistance. Track your claims in real-time at vizzainsurance.com
+- button "Apply Now"
+- heading "Why vizzainsurance.com?" [level=3]
+- img
+- img
+- heading "Health Insurance Specialist" [level=3]
+- text: Supercharge your insurance with the health insurance specialist at vizzainsurance.com
+- img
+- heading "Transparent Pricing" [level=3]
+- text: Get the best insurance for you and your family at the lowest available premium.
+- img
+- heading "Customer Delight" [level=3]
+- text: Loved By Customers. Customers trust us and have bought their insurance through vizza insurance.
+- img
+- heading "Timely Service" [level=3]
+- text: We are here for you anytime, anywhere
+- heading "Licensed to deal with all insurers" [level=2]
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- img
+- heading "Do you have a question? We're happy to help you" [level=3]
+- text: Our customer support team gives unbiased advice at keeping the customers a priority. Ask us anything, We'd love to answer you. Connect with our experts, we would love to assist you even in the toughest of times.
+- heading "General Queries" [level=3]
+- text: info@vizzafin.com
+- heading "Customer Sales Enquiries" [level=3]
+- text: +91 8608800066
+- heading "Claim Assistance" [level=3]
+- text: (044) 42691341
+- img "Vizza-Insurance"
+- paragraph: Compare and Buy Insurance Policies online at vizzainsurance.com. Filter through policies to find the ones that fit your criteria. Select Policies based on their key features.
+- button "Contact Us"
+- link "Whatsapp Us":
+  - /url: https://wa.me/918608500011?text=Hi%20Vizza%20Insurance,%20I%20am%20interested%20in%20one%20of%20the%20Insurance%20Products%20from%20Vizzainsurance.com.
+  - button "Whatsapp Us"
+- heading "General" [level=6]
+- button "Terms and Conditions"
+- button "Disclaimer"
+- button "Privacy Policy"
+- link "Careers":
+  - /url: https://career.vizzainsurance.com/
+  - button "Careers"
+- button "About Us"
+- heading "Support" [level=6]
+- button "Claim Support"
+- button "Customer Support"
+- button "Contact Us"
+- heading "Renewals" [level=6]
+- button "Renewal Remainders"
+- button "Renew Existing Policy"
+- button "Health Insurance Renewal"
+- heading "Media Library" [level=6]
+- link "Blogs":
+  - /url: https://blog.vizzainsurance.com/
+  - button "Blogs"
+- button "FAQ"
+- button "Insurance Dictionary"
+- button "Health Premium Calculator"
+- heading "Channel Partners" [level=6]
+- button "Registration"
+- button "Training"
+- button "Mock Test"
+- list:
+  - listitem:
+    - link "":
+      - /url: https://twitter.com/VizzaInsurance
+  - listitem:
+    - link:
+      - /url: https://www.facebook.com/Vizza-Insurance-Broking-Services-263685577699290/?modal=admin_todo_tour
+  - listitem:
+    - link:
+      - /url: https://www.linkedin.com/company/vizza-insurance-services/
+  - listitem:
+    - link:
+      - /url: https://www.youtube.com/channel/UCL6dApb7hpTyINrLLoHZY2w?view_as=subscriber
+  - listitem:
+    - link:
+      - /url: https://www.instagram.com/vizzainsurancebroking/
+- list:
+  - listitem:
+    - text: Licensed by
+    - link:
+      - /url: https://www.instagram.com/vizzainsurancebroking/
+  - listitem:
+    - text: Member of
+    - link:
+      - /url: https://www.instagram.com/vizzainsurancebroking/
+- separator
+- heading "Our Products" [level=3]
+- heading "Health Insurance" [level=6]
+- button "Individual Health Insurance"
+- button "Family Floater Health Insurance"
+- button "Critical Illness Health Insurance"
+- button "Senior Citizen Health Insurance"
+- button "Super Top-Up Plans"
+- button "Group Corporate Health Insurance"
+- button "Disease-Specific Health Insurance"
+- button "Arogya Sanjeevani Policy"
+- button "1 Crore Health Insurance"
+- button "Health Insurance with Maternity Cover"
+- button "Compare Health Insurance"
+- button "Corona Virus Insurance"
+- button "Corona Kavach Policy"
+- button "Corona Rakshak Policy"
+- heading "Online Insurance" [level=6]
+- button "Health Insurance"
+- button "Private Car Insurance"
+- button "Two Wheeler Insurance"
+- button "Personal Accident Insurance"
+- button "Travel Insurance"
+- button "Life Insurance"
+- heading "Commercial Insurance" [level=6]
+- button "Jewellers Block Policy"
+- button "Bankers Indemnity Policy"
+- button "Shopkeepers Policy"
+- button "Marine Cargo Policy"
+- button "Contractor Machinery Policy"
+- button "Marine Hull Policy"
+- button "Aviation Insurance"
+- button "Money Insurance"
+- button "House Holder Policy"
+- heading "Industrial Insurance" [level=6]
+- button "Fire Policy"
+- button "Burglary Policy"
+- button "Machinery Breakdown Policy"
+- button "Electronics Equipment Policy"
+- button "Consequential Loss Policy"
+- button "Contractors All Risk Policy"
+- button "Marine Cum Erection/ Storage Policy"
+- button "Advance Loss of Profit"
+- button "Contractor Plant and Machinery Policy"
+- button "Mega Package Policy"
+- button "Erection All Risk Policy"
+- heading "Group Insurance" [level=6]
+- button "Group Medical Insurance"
+- button "Group Personal Accident Insurance"
+- button "Group Term Life Insurance"
+- button "Group Travel Insurance"
+- heading "Liability Insurance" [level=6]
+- button "Public Liability Policy"
+- button "Products Liability Policy"
+- button "Professional Indemnity Policy"
+- button "Directors and Officers Liability Policy"
+- button "Lift Insurance"
+- button "Employers Liability Policy"
+- button "Workmen Compensation"
+- button "Carriers Liability Policy"
+- button "Liability Insurance Act Policy"
+- button "Golfers Indemnity Policy"
+- button "Fidelity Guarantee Insurance Policy"
+- heading "Life Insurance" [level=6]
+- button "Life Insurance-Term"
+- button "Life Insurance-Endowment"
+- button "ULIP"
+- separator
+- paragraph: Vizza Insurance Broking Services Pvt Ltd © 2018-2022. All Rights Reserved.
+- paragraph: VIZZA INSURANCE BROKING SERVICES PVT LTD
+- paragraph:
+  - text: "IRDAI LICENCE NO: IRDA / DB 543 / 13"
+  - img "file icon": insert_drive_file
+- paragraph: "Category: Direct Life & General"
+- paragraph:
+  - text: IRDAI Registration No:463
+  - img "file icon": insert_drive_file
+- paragraph: "Valid up to: 08-10-2025"
+- text: "*Disclaimer : *Insurance is the subject matter of solicitation. *Visitors are hereby informed that their information submitted on the website may be shared with insurers. *The product information for comparison displayed on this website is of the insurers with whom our company has an agreement. *Product information is authentic and solely based on the information received from the Insurer."
+- link "Privacy Policy":
+  - /url: /privacy-policy
+- paragraph: Contact
+- link "Whatsapp":
+  - /url: https://wa.me/918608500011?text=Hi%20Vizza%20Insurance,%20I%20am%20interested%20in%20one%20of%20the%20Insurance%20Products%20from%20Vizzainsurance.com.
+  - paragraph:
+    - img
+    - text: Whatsapp
+- paragraph: Chat Bot
+```

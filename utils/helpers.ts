@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
 import path from 'path';    
 
-export const Username = '8531913069';
-export const Password = 'Sirajtecdata@09';
+export const Username = 'testmanager@gmail.com';
+export const Password = 'admin1';
 export const Firstname = 'Vizza';
 
 export async function fillByRole(page, role: string, name: string, value: string, options = {}) {
@@ -47,7 +47,7 @@ export async function selectByText(page, labelOrDropdownText: string, optionText
 }
 export async function selectOptionInsideLabel(page, label: string, option: string) {
   await page.getByLabel(label).getByText(label).click();
-  await page.getByText(option, { exact: true }).click();
+  await page.getByText(option, { exact: true }).nth(0).click();
 }
 export async function selectOptionFromComboBox(page, comboBoxName: string, option: string) {
   await page.getByRole('combobox', { name: comboBoxName }).locator('span').click();
