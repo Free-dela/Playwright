@@ -20,11 +20,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install Playwright browsers
-        run: npx playwright install
-
       - name: Fix Playwright CLI permissions
         run: chmod +x node_modules/.bin/playwright
+
+      - name: Install Playwright browsers
+        run: npx playwright install
 
       - name: Run Playwright tests and save results
         run: npx playwright test --reporter=html
