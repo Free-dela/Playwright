@@ -14,7 +14,7 @@ import { Login, FillHealthInsuranceForm1, CkycProposer , Insurer1 , Insurer1C
     // test.afterEach(async ({ page }) => {await Payment(page);});
   test.setTimeout(150000);
 
-test.only('1A Assure', async ({ page }) => {
+test('1A Assure', async ({ page }) => {
   await FillHealthInsuranceForm1(page);
     await fillById(page,'#mat-input-18','09121999');
       await Product(page,"₹ 7676/Yr","₹ 8940/Yr","Star Health");

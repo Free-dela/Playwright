@@ -8,10 +8,10 @@ import {  fillById , fillByRole , clickById , clickByRole
 
 import { Login, FillHealthInsuranceForm1, CkycProposer , Insurer1 , Insurer1C
   , Nominee ,Product, Insurer2 , Insurer2C, Payment ,Justpay, UATLogin} from '../utils/formhelper';
-  
-test.only('UAT', async ({ page }) => {
-    await UATLogin(page);
-    await page.pause();
+
+// test.only('UAT', async ({ page }) => {
+//     await UATLogin(page);
+//     await page.pause();
                 // await Payment(page);
                     // await Justpay(page);
-});
+// });
